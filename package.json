@@ -1,5 +1,5 @@
 {
-  "name": "hermes-engine",
+  "name": "custom-hermes-engine",
   "version": "0.7.2",
   "private": false,
   "description": "A JavaScript engine optimized for running React Native on Android",
