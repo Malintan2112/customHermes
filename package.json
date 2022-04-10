@@ -1,8 +1,8 @@
 {
-  "name": "custom-hermes-engine",
-  "version": "0.7.2",
+  "name": "hermes-engine-cli",
+  "version": "0.9.0",
   "private": false,
-  "description": "A JavaScript engine optimized for running React Native on Android",
+  "description": "Hermes Engine cli tools for host platforms",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -10,16 +10,26 @@
   },
   "files": [
     "README.md",
-    "android/hermes-debug.aar",
-    "android/hermes-release.aar",
-    "android/hermes-cppruntime-debug.aar",
-    "android/hermes-cppruntime-release.aar",
-    "android/include/**/*.h",
+    "linux64-bin/hbcdump",
+    "linux64-bin/hdb",
+    "linux64-bin/hermes",
     "linux64-bin/hermesc",
+    "osx-bin/hbcdump",
+    "osx-bin/hdb",
+    "osx-bin/hermes",
     "osx-bin/hermesc",
-    "win64-bin/hermesc.exe",
+    "win64-bin/icudt64.dll",
+    "win64-bin/icuin64.dll",
+    "win64-bin/icuio64.dll",
+    "win64-bin/icutest64.dll",
+    "win64-bin/icutu64.dll",
+    "win64-bin/icuuc64.dll",
     "win64-bin/msvcp140.dll",
     "win64-bin/vcruntime140.dll",
-    "win64-bin/vcruntime140_1.dll"
+    "win64-bin/vcruntime140_1.dll",
+    "win64-bin/hbcdump.exe",
+    "win64-bin/hdb.exe",
+    "win64-bin/hermes.exe",
+    "win64-bin/hermesc.exe"
   ]
 }
