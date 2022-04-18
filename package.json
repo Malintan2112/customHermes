@@ -1,6 +1,6 @@
 {
   "name": "hermes-engine-cli",
-  "version": "0.10.0",
+  "version": "0.9.0",
   "private": false,
   "description": "Hermes Engine cli tools for host platforms",
   "license": "MIT",
